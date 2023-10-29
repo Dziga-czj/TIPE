@@ -1,0 +1,6 @@
+if [[ $1 != "" ]]
+then prog_name=$1
+else prog_name=$(basename "$PWD")
+fi
+
+gcc -o $prog_name -fsanitize=address -O1 -I/home/dziga/raylib/src/ -lraylib -lGL -lm -pthread -ldl *.c

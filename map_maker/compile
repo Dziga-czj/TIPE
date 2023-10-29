@@ -1,0 +1,3 @@
+prog_name=$(basename "$PWD")
+
+gcc -o $prog_name -fsanitize=address -O1 -I/home/dziga/raylib/src/ -lraylib -lGL -lm -pthread -ldl *.c
