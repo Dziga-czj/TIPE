@@ -1,9 +1,15 @@
 # TIPE
-Projet de mon TIPE de CPGE
-Sujet : Simulaiion de mouvements de foule
+My TIPE project in preparation school.  
+__Suject__ : Crowd movement simulation  
 
-la compilation se fait grace au fichier "compile" écrit en bash
+## How to use
+Compilation is done with the ̀compile` file, written in bash  
+```
+$ bash compile
+```
+## Map creation 
+The directory `map_maker/` contains a map maker tool.
 
-le dossier map_maker contient un outil pour créer des maps
-
-l'ajout des destinations des particules (ou agents) et des agents eux-mêmes se fait dans le main.c
+## Changing the simulated agents
+All the agents are following checkpoints, to then go to the finish line.  
+You can change their checkpoints, change de finish line, and add more agents in the `main.c` file.  
