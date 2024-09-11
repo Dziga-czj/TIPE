@@ -6,8 +6,8 @@ __Suject__ : Crowd movement simulation
 Compilation is done with the ̀compile` file, written in bash  
 ```
 $ bash compile
-```
-## Map creation 
+```  
+## Map creation 
 The directory `map_maker/` contains a map maker tool.
 
 ## Changing the simulated agents
